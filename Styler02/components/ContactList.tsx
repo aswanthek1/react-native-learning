@@ -27,6 +27,12 @@ const ContactList = () => {
           status: 'Building secure Digital banks',
           imageUrl: 'https://avatars.githubusercontent.com/u/25549847?v=4',
         },
+        {
+          uid: 5,
+          name: 'Anirudh Jwala',
+          status: 'Building secure Digital banks',
+          imageUrl: 'https://avatars.githubusercontent.com/u/25549847?v=4',
+        },
       ];
   return (
     <View>
@@ -67,7 +73,7 @@ const styles = StyleSheet.create({
     container: {
         paddingHorizontal:16,
         marginBottom:4,
-        marginTop:4
+        marginTop:4,
     },
     userCard: {
         flex:1,
